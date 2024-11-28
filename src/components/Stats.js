@@ -10,7 +10,7 @@ function Stats({ items }) {
     return (
       <footer className="stats">
         <em>
-          {items.length === 0 ? ( 
+          {percentage === 100 ? ( 
             <p>You got everything!</p>
           ) : (
            <p>{`You have ${totalItems} items in the  list. You already packed ${packedItems}${" "}
